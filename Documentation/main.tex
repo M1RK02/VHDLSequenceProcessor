@@ -1,0 +1,59 @@
+\documentclass[12pt]{scrartcl}
+
+% Language setting
+\usepackage[italian]{babel}
+
+% Font setting
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+% Control of page headers and footers
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+% Reference to lastpage
+\usepackage{lastpage}
+
+% Package for lists
+\usepackage{listings}
+\usepackage{enumitem}
+
+% Package for links
+\usepackage[hidelinks]{hyperref}
+
+% Package for images and figures
+\usepackage{graphicx}
+\usepackage{float}
+
+% Header and footer setup
+\lhead{}
+\chead{}
+\rhead{Prova Finale - Reti Logiche}
+\lfoot{}
+\cfoot{}
+\rfoot{Pagina \thepage\ di \pageref{LastPage}}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+% Title setup
+\title{Prova Finale - Reti Logiche}
+\subtitle{Docente: Palermo Gianluca - Anno Accademico: 2023/2024}
+\author{
+    Pianalto Riccardo (Codice Persona: 10835980)
+    \and
+    Pica Mirko (Codice Persona: 10811404)
+}
+\date{}
+
+% Document content
+\begin{document}
+    \maketitle
+    \thispagestyle{empty}
+
+    \tableofcontents
+
+    \include{sections/introduction}
+    \include{sections/architecture}
+    \include{sections/results}
+    \include{sections/ending}
+\end{document}
