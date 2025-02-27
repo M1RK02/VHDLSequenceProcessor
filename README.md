@@ -5,7 +5,7 @@
 This is one of my bachelor degree projects.
 In my university there are three projects that contribute to my final score (up to 6 points).
 
-This one in particular is the final project from the course 'Reti Logiche' so the project is about logical networks and VHDL programming.
+This one in particular is the final project from the course "Reti Logiche" so the project is about logical networks and VHDL programming.
 
 ### Try it yourself!
 
